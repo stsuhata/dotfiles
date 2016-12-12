@@ -2,6 +2,7 @@
 export LANG=ja_JP.UTF-8
  
 # Use color
+export LSCOLORS=gxfxcxdxbxegedabagacad
 autoload -Uz colors
 colors
 alias ls='ls -G'
@@ -14,5 +15,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
 
-PROMPT='%F{magenta}%B%n%b%f @ %F{green}%U%m%u%f [%F{yellow}%~%f]
+PROMPT='%F{magenta}%B%n%b%f @ %F{green}%U%m%u%f [%F{yellow}%~%f] 
 $ '
+
+alias macvim="/Applications/MacVim.app/Contents/MacOS/MacVim"
