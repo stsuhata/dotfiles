@@ -23,6 +23,8 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'jacoborus/tender.vim'
+NeoBundle 'scrooloose/nerdtree'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -61,6 +63,8 @@ set laststatus=2
 
 set guifont=Ricty:h14
 colorscheme molokai
+"colorscheme tender
+syntax on
 
 set clipboard+=unnamed
 
