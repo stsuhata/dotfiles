@@ -6,6 +6,8 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 autoload -Uz colors
 colors
 alias ls='ls -G'
+alias ll='ls -l'
+alias tmux='tmux -2'
  
 # For emacs like keybind
 bindkey -e
