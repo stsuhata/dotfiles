@@ -3,6 +3,7 @@ export LANG=en_US.UTF-8
  
 # Use color
 export LSCOLORS=gxfxcxdxbxegedabagacad
+export GREP_OPTIONS='--color=auto'
 autoload -Uz colors
 colors
 alias ls='ls -G'
